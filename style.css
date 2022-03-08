@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+ul li {
+  list-style: none;
+}
+.row.header {
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+/* logo */
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+.logo-link h1 {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 23.7px;
+  color: #0b132a;
+}
+.logo-link h1 span {
+  font-weight: 700;
+}
+/* navigation bar */
+header ul {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  margin: 0 20px;
+}
+.nav-item .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f5665;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+.nav-item .nav-link:hover {
+  color: #f53838;
+}
+/* sign blog */
+.sign-link {
+  font-weight: 500;
+  color: #0b132a;
+  text-transform: capitalize;
+}
+.sign-item.sign-up {
+  margin-left: 30px;
+}
+.sign-item.sign-up a {
+  color: #f53855;
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.sign-item.sign-up a:hover {
+  background-color: #f53855;
+  color: #fff;
+}
+header {
+  padding: 45px 0;
+}
+
+/* main */
+.row.main {
+  padding: 40px 0;
+  align-items: center;
+  justify-content: center;
+}
+.main-content {
+  width: 555px;
+}
+.main-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.main-title span,
+.main-text span {
+  font-weight: 700;
+}
+.main-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 50px;
+}
+.main-link {
+  background-color: #f53838;
+  border-radius: 10px;
+  padding: 17px 77px;
+  color: #fff;
+  font-weight: 700;
+  transition: box-shadow 0.5s;
+}
+.main-link:hover {
+  box-shadow: 0 22px 20px -20px #f53838;
+}
+
+/* next section started */
+.box-section {
+  background-color: #f6f6f6;
+  padding: 72px 91px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 100px 105px -102px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #eeeff2;
+  width: 30%;
+  margin-right: 20px;
+}
+.box-three{
+  border-right: none;
+  margin-right: 0;
+}
+.box-three .box-img{
+  padding: 20px 21px;
+}
+.box-img {
+  padding: 20px 24px;
+  border-radius: 50%;
+  background-color: #FFECEC;
+}
+.box-text {
+  font-weight: 700;
+  font-size: 25px;
+  color: #0b132a;
+  margin-left: 36px;
+}
+.box-text span {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4f5665;
+}
+.box-two .box-img{
+  padding: 20px 25px;
+}
+
+/* red-box section started */
+.box-content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 95px;
+  margin-bottom: 100px;
+}
+.rb-text{
+  margin-top: 60px;
+  margin-left: 169px;
+  width: 430px;
+}
+.rbtxt-header{
+  font-size: 35px;
+  font-weight: 500;
+}
+.rbtxt{
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.rbtxt-ftrs{
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* choose plan section started */
+.blue-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+.header-txt{
+  font-size: 35px;
+  color: #0B132A;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.main-txt{
+  font-size: 16px;
+  width: 555px;
+  text-align: center;
+  color: #4F5665;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.plans{
+  display: flex;
+  flex-direction: row;
+}
+.plan{
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-right: 50px;
+  width: 330px;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: border 0.3s;
+}
+.plan:hover{
+  border: 2px solid #F53838;
+}
+.plan-img{
+  margin-top: 80px;
+}
+.plan-type{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.plan-ftrs{
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.plan-features{
+  display: flex;
+  flex-direction: column;
+}
+.plan-one .plan-price{
+  margin-top: 130px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 25px;
+}
+.plan-two .plan-price{
+  margin-top: 112px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.plan-two .plan-price span{
+  font-weight: 500;
+}
+.plan-three .plan-price{
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.plan-three .plan-price span{
+  font-weight: 500;
+}
+.plan-three{
+  border: 2px solid #F53838;
+  margin-left: 0;
+}
+.plans-section{
+  background-color: #fbfbfb;
+  padding-top: 21px;
+}
+.btn-select{
+  padding: 13px 63px;
+  font-weight: 700;
+  border: 2px solid #F53838;
+  color: #F53838;
+  border-radius: 50px;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+.btn-select:hover{
+  background-color: #f53838;
+  color: #fff;
+  box-shadow: 0 22px 20px -20px #f53838;
+}
+.plan-three .btn-select{
+  background-color: #F53838;
+  color: #fff;
+  box-shadow: 0 22px 20px -20px #f53838;
+}
+
+/* map section started */
+.map-section{
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #fefefe;
+}
+.green-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-tekst{
+  padding-bottom: 20px;
+  width: 383px;
+  text-align: center;
+}
+.header-tekst h1{
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0B132A;
+}
+.last-tekst{
+  margin-bottom: 155px;
+  width: 555px;
+  text-align: center;
+}
+.last-tekst p{
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  font-weight: 400;
+}
+.last-tekst p span{
+  font-weight: 500;
+}
+.map-img{
+  margin-bottom: 50px;
+}
+.social-icons{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+/* copy section */
+.copy{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #666;
+}
+.copy h1{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+}
+.copy h1 span{
+  font-weight: 400;
+}
